@@ -10,7 +10,7 @@ app.get('/data', (req, res) => {
     res.send("More data coming sooooon......");
 })
 app.get('/mobile', (req, res) => {
-    res.send("");
+    res.send("Here I have some mobile information");
 })
 
 app.listen(port, () => {
