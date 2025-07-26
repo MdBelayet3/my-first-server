@@ -9,6 +9,9 @@ app.get('/', (req, res) =>{
 app.get('/data', (req, res) => {
     res.send("More data coming sooooon......");
 })
+app.get('/mobile', (req, res) => {
+    res.send("");
+})
 
 app.listen(port, () => {
     console.log(`My first server is running on port : ${port}`);
