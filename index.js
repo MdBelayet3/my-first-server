@@ -13,6 +13,10 @@ app.get('/mobile', (req, res) => {
     res.send("Here I have some mobile information");
 })
 
+app.get('/car', (req, res) => {
+    
+})
+
 app.listen(port, () => {
     console.log(`My first server is running on port : ${port}`);
 })
