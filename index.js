@@ -14,7 +14,7 @@ app.get('/mobile', (req, res) => {
 })
 
 app.get('/car', (req, res) => {
-    res.send("Here I have some car ");
+    res.send("Here I have some car information");
 })
 
 app.listen(port, () => {
